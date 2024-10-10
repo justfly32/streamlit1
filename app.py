@@ -4,7 +4,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 
 # OpenAI API 키 설정
-openai_api_key = 'sk-None-ez8qcDIdwIxpy21e0I8gT3BlbkFJlUwU5w5r7Sir4W7l6tpE'
+openai_api_key = '
 
 # 대화형 GPT 모델 설정 (OpenAI API 사용)
 llm = OpenAI(temperature=0.7, openai_api_key=openai_api_key)
